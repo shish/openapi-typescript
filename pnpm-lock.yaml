@@ -6,12 +6,6 @@ settings:
 
 catalogs:
   default:
-    execa:
-      specifier: ^9.6.1
-      version: 9.6.1
-    typescript:
-      specifier: ^5.9.3
-      version: 5.9.3
     vite:
       specifier: ^7.3.1
       version: 7.3.1
@@ -51,7 +45,7 @@ importers:
         specifier: 2.9.9
         version: 2.9.9
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
       unbuild:
         specifier: 3.6.1
@@ -79,7 +73,7 @@ importers:
         specifier: 1.16.0
         version: 1.16.0
       execa:
-        specifier: 'catalog:'
+        specifier: ^9.6.1
         version: 9.6.1
       express:
         specifier: 5.2.1
@@ -103,13 +97,13 @@ importers:
         specifier: 10.3.0
         version: 10.3.0
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
       undici:
         specifier: 7.25.0
         version: 7.25.0
       vite:
-        specifier: 'catalog:'
+        specifier: ^7.3.1
         version: 7.3.1(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.2)
 
   packages/openapi-fetch/examples/nextjs:
@@ -137,7 +131,7 @@ importers:
         specifier: workspace:^
         version: link:../../../openapi-typescript
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
 
   packages/openapi-fetch/examples/sveltekit:
@@ -164,10 +158,10 @@ importers:
         specifier: ^4.3.6
         version: 4.3.6(picomatch@4.0.4)(svelte@5.53.5)(typescript@5.9.3)
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: 'catalog:'
+        specifier: ^7.3.1
         version: 7.3.1(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.2)
 
   packages/openapi-fetch/examples/vue-3:
@@ -192,10 +186,10 @@ importers:
         specifier: workspace:^
         version: link:../../../openapi-typescript
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: 'catalog:'
+        specifier: ^7.3.1
         version: 7.3.1(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.2)
       vue-tsc:
         specifier: ^2.2.12
@@ -220,7 +214,7 @@ importers:
         specifier: 5.2.0
         version: 5.2.0(vite@7.3.1(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.2))
       execa:
-        specifier: 'catalog:'
+        specifier: ^9.6.1
         version: 9.6.1
       msw:
         specifier: 2.14.3
@@ -272,13 +266,13 @@ importers:
         specifier: 2.8.4
         version: 2.8.4
       execa:
-        specifier: 'catalog:'
+        specifier: ^9.6.1
         version: 9.6.1
       strip-ansi:
         specifier: 7.2.0
         version: 7.2.0
       typescript:
-        specifier: 'catalog:'
+        specifier: ^5.9.3
         version: 5.9.3
       vite-node:
         specifier: 5.3.0
