@@ -1,6 +1,5 @@
 {
   "name": "openapi-typescript-monorepo",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "author": {
@@ -40,5 +39,12 @@
       "limit": "7.5 kB",
       "brotli": false
     }
-  ]
+  ],
+  "bin": {
+    "openapi-typescript": "./packages/openapi-typescript/bin/cli.js"
+  },
+  "exports": {
+    ".": "./packages/openapi-typescript/dist/index.mjs",
+    "./package.json": "./packages/openapi-typescript/package.json"
+  }
 }
