@@ -15,6 +15,6 @@
     "@types/react": "^18.3.28",
     "@types/react-dom": "^18.3.7",
     "openapi-typescript": "workspace:^",
-    "typescript": "catalog:"
+    "typescript": "^5.9.3"
   }
 }
